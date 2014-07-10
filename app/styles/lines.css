@@ -1,0 +1,92 @@
+.line {
+    list-style-type: none;
+    display: block;
+    background-color: #f2f2f2;
+    padding: 15px 20px;
+    color: #fff;
+    position: relative;
+}
+
+.line_message {
+    position: absolute;
+    left: 320px;
+    top: 0px;
+    width: 280px;
+    height: 572px;
+    background-color: #ccc;
+    opacity: 0;
+    padding: 20px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.line--bakerloo,
+.line_message--bakerloo {
+    background-color: #894E24;
+}
+
+.line--central,
+.line_message--central {
+    background-color: #DC241F;
+}
+
+.line--circle,
+.line_message--circle {
+    background-color: #FFCE00;
+    color: #000;
+}
+
+.line--district,
+.line_message--district {
+    background-color: #007229;
+}
+
+.line--dlr,
+.line_message--dlr {
+    background-color: #00AFAD;
+    color: #000;
+}
+
+.line--hammersmithandcity,
+.line_message--hammersmithandcity {
+    background-color: #D799AF;
+    color: #000;
+}
+
+.line--jubilee,
+.line_message--jubilee {
+    background-color: #6A7278;
+}
+
+.line--overground,
+.line_message--overground {
+    background-color: #E86A10;
+    color: #000;
+}
+
+.line--metropolitan,
+.line_message--metropolitan {
+    background-color: #751056;
+}
+
+.line--northern,
+.line_message--northern {
+    background-color: #000000;
+}
+
+.line--piccadilly,
+.line_message--piccadilly {
+    background-color: #0019A8;
+}
+
+.line--victoria,
+.line_message--victoria {
+    background-color: #00A0E2;
+    color: #000;
+}
+
+.line--waterlooandcity,
+.line_message--waterlooandcity {
+    background-color: #76D0BD;
+    color: #000;
+}

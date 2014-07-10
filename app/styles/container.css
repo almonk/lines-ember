@@ -1,0 +1,17 @@
+.container {
+    width: 320px;
+    border-radius:4px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+    box-shadow: 0px 5px 16px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.container--loading {
+    width: 320px;
+    height: 572px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 572px;
+}

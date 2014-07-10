@@ -1,0 +1,11 @@
+{{#each model.lines itemController="line"}}
+    <li {{action "moreInfo"}} {{bind-attr class=":line lineId"}}>
+        <b>{{name}}</b> &mdash; {{status}}
+        <br>
+    </li>
+
+    <div {{bind-attr class=":line_message messageId"}} {{action "closeInfo"}}>
+        {{message}}
+    </div>
+
+{{/each}}
