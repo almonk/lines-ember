@@ -2,9 +2,6 @@
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-var pickFiles = require('broccoli-static-compiler');
-var mergeTrees = require('broccoli-merge-trees');
-
 var app = new EmberApp();
 
 // Use `app.import` to add additional libraries to the generated
@@ -20,10 +17,6 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
-var transit = pickFiles('vendor/jquery.transit', {
-  srcDir: '/',
-  files: ['jquery.transit.js'],
-  destDir: '/assets/jquery.transit'
-});
+app.import('vendor/jquery.transit/jquery.transit.js');
 
-module.exports = mergeTrees([app.toTree(), transit]);
+module.exports = app.toTree();
