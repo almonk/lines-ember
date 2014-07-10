@@ -2,6 +2,8 @@
 
 This README outlines the details of collaborating on this Ember application.
 
+<img src="http://f.cl.ly/items/1W2m333Z1C1101420a2L/Screen%20Shot%202014-07-10%20at%2012.05.08.png"/>
+
 ## Installation
 
 * `git clone` this repository
