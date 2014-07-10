@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.line b {
+    font-weight: bold;
+}
+
 .line_message {
     position: absolute;
     left: 320px;
