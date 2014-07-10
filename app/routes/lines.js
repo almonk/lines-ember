@@ -1,7 +1,8 @@
 import Ember from 'ember';
+import ajax from 'ic-ajax';
 
 export default Ember.Route.extend({
-    model: function(params) {
-        return $.getJSON('http://app.getlin.es/status/current.json');
+    model: function() {
+        return ajax('http://app.getlin.es/status/current.json');
     }
 });
